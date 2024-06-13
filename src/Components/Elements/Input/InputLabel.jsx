@@ -6,7 +6,7 @@ export default function InputLabel(props) {
     const {htmlfor, children, type, placeholder, name} = props;
 
   return (
-    <div>
+    <div className='space-y-3'>
         <Label htmlfor={htmlfor}>{children}</Label>
         <Input type={type} placeholder={placeholder} name={name} />
     </div>

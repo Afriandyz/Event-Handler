@@ -4,8 +4,8 @@ export default function Button(props) {
     const {children} = props;
 
   return (
-    <div>
-        <button>{children}</button>
+    <div className='flex justify-center'>
+        <button className='p-2 bg-sky-800 text-white w-full rounded-md'>{children}</button>
     </div>
   )
 }
