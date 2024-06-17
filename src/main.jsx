@@ -7,6 +7,7 @@ import LoginForm from "./Pages/LoginForm.jsx";
 import RegisterForm from "./Pages/RegisterForm.jsx";
 import ErrorPage from "./Pages/ErrorPage.jsx";
 import Product from "./Pages/Product.jsx";
+import RenderingList from "./Pages/RenderingList.jsx";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/product",
     element: <Product />,
+  },
+  {
+    path: "/rendering",
+    element: <RenderingList />,
   },
 ]);
 
